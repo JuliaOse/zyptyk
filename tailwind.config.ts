@@ -6,7 +6,7 @@ const config: Config = {
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
-    "./node_modules/@nextui-org/theme/dist/components/[object Object].js",
+    "./node_modules/@nextui-org/theme/dist/components/(button|card|divider|navbar|ripple|spinner).js",
   ],
   theme: {
     extend: {
@@ -21,11 +21,11 @@ const config: Config = {
         },
       },
       animation: {
-        
         marquee: "marquee 5s linear infinite",
       },
     },
   },
   plugins: [nextui()],
 };
+
 export default config;

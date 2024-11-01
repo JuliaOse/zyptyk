@@ -1,27 +1,76 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
 
 :root {
   --background: #ffffff;
   --foreground: #171717;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-}
+} */
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  /* background-color: #ffffff; */
+  font-family: "Inter", sans-serif;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+}
+
+.scroll-shadow-top {
+  position: relative;
+  /* overflow-y: auto; Enables scrolling */
+  /* max-height: 300px; Adjust height as needed */
+  
+}
+
+.scroll-shadow-top::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 230px; /* Adjust height for shadow effect */
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 1),
+    rgba(255, 255, 255, 0)
+  ); /* Fades from white to transparent */
+  pointer-events: none; /* Ensures shadow doesn’t interfere with scroll */
+  z-index: 10;
+}
+
+.carousel-container {
+  position: relative;
+  overflow: hidden;
+  height: 800px; /* Adjust height based on the visible area you want */
+  max-width: 1200px;
+  gap:0
+}
+
+.carousel-content {
+  display: flex;
+  flex-direction: column;
+  animation: scroll-up 8s linear forwards; /* Adjust duration for scroll speed */
+
+}
+
+@keyframes scroll-up {
+  0% {
+    transform: translateY(10%);
+  }
+  100% {
+    transform: translateY(0%);
   }
 }
