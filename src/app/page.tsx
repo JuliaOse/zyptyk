@@ -5,6 +5,7 @@ import Features from "@/pages/Features";
 import Solutions from "@/pages/Solutions";
 import Stats from "@/pages/Stats";
 import Testimonial from "@/pages/Testimonial";
+import Faq from "@/pages/Faq";
 
 export default function Home() {
   return (
@@ -28,6 +29,9 @@ export default function Home() {
         </div>
         <div className=" flex flex-col mb-32 justify-evenly gap-20">
           <Testimonial />
+        </div>
+        <div className=" flex flex-col mb-32 justify-evenly gap-20">
+          <Faq/>
         </div>
       </main>
     </div>
