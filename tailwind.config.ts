@@ -6,7 +6,7 @@ const config: Config = {
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
-    "./node_modules/@nextui-org/theme/dist/components/(button|card|divider|navbar|ripple|spinner).js",
+    "./node_modules/@nextui-org/theme/dist/components/(button|card|divider|navbar|ripple|spinner|checkbox).js",
   ],
   theme: {
     extend: {
@@ -22,6 +22,10 @@ const config: Config = {
       },
       animation: {
         marquee: "marquee 5s linear infinite",
+      },
+      backgroundImage: {
+        "blue-gradient":
+          "linear-gradient(90.7deg, #3366FF 1.18%, #8099E4 99.4%)",
       },
     },
   },

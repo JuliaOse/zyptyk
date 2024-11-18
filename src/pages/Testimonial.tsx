@@ -71,7 +71,7 @@ function Testimonial() {
       <div className="scroll-shadow-top self-center items-center place-items-center carousel-container p-8 justify-items-center ">
         <div className="carousel-content ">
           {/* grid grid-cols-1 md:grid-cols-3 gap-2 */}
-          <div className=" items-start justify-center  grid grid-cols-1 md:grid-cols-3 gap-y-2">
+          <div className="  grid grid-cols-1 md:grid-cols-3 gap-y-2 gap-x-0">
             {Testimonials.map((testimonial, index) => (
               <TestimonialCard
                 key={index}

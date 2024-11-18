@@ -7,6 +7,7 @@ import Stats from "@/pages/Stats";
 import Testimonial from "@/pages/Testimonial";
 import Faq from "@/pages/Faq";
 import ContactPage from "@/pages/ContactPage";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -32,9 +33,14 @@ export default function Home() {
           <Testimonial />
         </div>
         <div className=" flex flex-col mb-32 justify-evenly gap-20">
-          <Faq/>
+          <Faq />
         </div>
-        <div><ContactPage/></div>
+        <div className="mb-20 ">
+          <ContactPage />
+        </div>
+        <div>
+          <Footer />
+        </div>
       </main>
     </div>
   );

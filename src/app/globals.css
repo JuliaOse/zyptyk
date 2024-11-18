@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
 
 :root {
@@ -32,7 +33,6 @@ body {
   position: relative;
   /* overflow-y: auto; Enables scrolling */
   /* max-height: 300px; Adjust height as needed */
-  
 }
 
 .scroll-shadow-top::before {
@@ -56,14 +56,13 @@ body {
   overflow: hidden;
   height: 800px; /* Adjust height based on the visible area you want */
   max-width: 1200px;
-  gap:0
+  gap: 0;
 }
 
 .carousel-content {
   display: flex;
   flex-direction: column;
   animation: scroll-up 8s linear forwards; /* Adjust duration for scroll speed */
-
 }
 
 @keyframes scroll-up {

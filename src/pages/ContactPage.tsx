@@ -6,6 +6,8 @@ import Image from "next/image";
 import { caveat } from "@/app/fonts/fonts";
 import TitleCard from "@/app/components/TitleCard";
 import ContactForm from "@/app/components/ContactForm";
+import Waitlist from "@/app/components/Waitlist";
+import Footer from "@/app/components/Footer";
 
 const ContactPage: React.FC = () => {
   const [svgMap, setSvgMap] = useState<string>("");
@@ -95,9 +97,12 @@ const ContactPage: React.FC = () => {
           </p>
         </div>
       </div>
-      <div>
-        <ContactForm/>
+      <div className="gap-20 flex flex-col">
+        <ContactForm />
+        <Waitlist/>
+
       </div>
+      <div></div>
     </div>
   );
 };
