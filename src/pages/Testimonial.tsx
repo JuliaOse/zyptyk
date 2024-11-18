@@ -64,9 +64,11 @@ function Testimonial() {
     <div className="items-center justify-center flex flex-col">
       <div className="items-center justify-center flex flex-col gap-8">
         <TitleCard title="Testimonial" />
-        <span className="font-semibold text-4xl">What our users say</span>
+        <span className="font-semibold text-center text-4xl">
+          What our users say
+        </span>
       </div>
-      <div className="scroll-shadow-top carousel-container p-8 justify-items-center ">
+      <div className="scroll-shadow-top self-center items-center place-items-center carousel-container p-8 justify-items-center ">
         <div className="carousel-content ">
           {/* grid grid-cols-1 md:grid-cols-3 gap-2 */}
           <div className=" items-start justify-center  grid grid-cols-1 md:grid-cols-3 gap-y-2">
