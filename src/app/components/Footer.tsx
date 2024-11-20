@@ -22,7 +22,7 @@ function Footer() {
       </div>
 
       {/* Links Section */}
-      <ul className="flex flex-wrap justify-center gap-6 m-4">
+      <ul className="lg:flex flex-wrap justify-center grid-cols-2 grid gap-6 m-4">
         {Links.map((link, index) => (
           <li key={index}>
             <a

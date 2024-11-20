@@ -15,7 +15,7 @@ function ContactForm() {
     message: "",
   });
 
-  const [checked, setChecked] = useState(false);
+  //   const [checked, setChecked] = useState(false);
 
   const handlePhoneChange = (value: any) => {
     setFormData((prevData) => ({
