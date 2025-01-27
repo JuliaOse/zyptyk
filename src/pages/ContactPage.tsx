@@ -93,7 +93,7 @@ const ContactPage: React.FC = () => {
             Mon-Fri from 8am to 5pm.
           </p>
           <p className="text-[#0050E5] font-semibold text-base">
-            + (233) 0303-955992
+            + (233) 24 119-7843
           </p>
         </div>
       </div>
