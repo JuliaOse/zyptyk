@@ -16,7 +16,7 @@ function Waitlist() {
           <Input type="email" placeholder="Enter your email" />
           <span className="text-sm">
             We care about your data in our{" "}
-            <span className="underline">privacy policy</span>
+            <a href='https://pages.flycricket.io/zomujo-2/privacy.html'><span className="underline">privacy policy</span></a>
           </span>
         </div>
         <div>

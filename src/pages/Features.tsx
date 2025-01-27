@@ -41,7 +41,7 @@ function Features() {
     <div
       className={`flex flex-col justify-center items-center gap-20 ${inter.className}`}
     >
-      <TitleCard title="Features" />
+      <TitleCard title="About Us" />
       <div className="sm:w-2/3 text-center gap-5 flex flex-col font-Inter">
         <p className="font-semibold text-4xl ">
           Advancing Digitally Enabled Health Services to Close the Health Equity

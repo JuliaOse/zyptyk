@@ -11,8 +11,8 @@ import Footer from "./components/Footer";
 
 export default function Home() {
   return (
-    <div className="sm:p-6 mx-10 ">
-      <main>
+    <div id='home' className="sm:p-6 mx-10 ">
+      <main >
         <div className="mb-10">
           <Navbar />
           <hr />
@@ -22,6 +22,7 @@ export default function Home() {
         </div>
         <div className=" flex flex-col mb-32 justify-evenly gap-20">
           <Partners />
+          <div id='about'/>
           <Features />
         </div>
         <div className="flex flex-col mb-48 justify-evenly gap-32">
@@ -32,10 +33,10 @@ export default function Home() {
         <div className=" flex flex-col mb-32 justify-evenly gap-20">
           <Testimonial />
         </div>
-        <div className=" flex flex-col mb-32 justify-evenly gap-20">
+        <div id='faqs' className=" flex flex-col mb-32 justify-evenly gap-20">
           <Faq />
         </div>
-        <div className="mb-20 ">
+        <div id='contact' className="mb-20 ">
           <ContactPage />
         </div>
         <div>

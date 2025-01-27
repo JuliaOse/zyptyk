@@ -126,7 +126,7 @@ function ContactForm() {
           >
             {" "}
             You agree to our friendly{" "}
-            <span className="underline  text-[#475467]">privacy policy</span>
+              <a href='https://pages.flycricket.io/zomujo-2/privacy.html'><span className="underline  text-[#475467]">privacy policy</span></a>
           </span>
         </Checkbox>
       </div>

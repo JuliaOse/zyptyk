@@ -25,11 +25,21 @@ function Navbar() {
         <Image src={Logo} alt="Logo" width={120} />
       </div>
       <div className="hidden md:flex">
-        <ol className="inline-flex gap-8 font-semibold text-[#475467] ">
-          <li>Home</li>
-          <li>About</li>
-          <li>Contact</li>
+        <ol className="inline-flex gap-8 font-semibold text-[#475467]">
+          <li>
+            <a href="#home" className="hover:text-blue-500">Home</a>
+          </li>
+          <li>
+            <a href="#about" className="hover:text-blue-500">About</a>
+          </li>
+          <li>
+            <a href="#faqs" className="hover:text-blue-500">FAQs</a>
+          </li>
+          <li>
+            <a href="#contact" className="hover:text-blue-500">Contact</a>
+          </li>
         </ol>
+
       </div>
       <div className="flex md:hidden z-50">
         <button

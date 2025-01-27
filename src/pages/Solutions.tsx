@@ -62,7 +62,7 @@ function Solutions() {
       <TitleCard title="Solutions" />
       <div className="sm:w-3/5  text-center gap-5 flex flex-col font-Inter">
         <p className="font-semibold text-4xl  ">
-          Our commitment to building clinical AI systems .
+          Our commitment to building clinical AI systems.
         </p>
         <p className="text-[#475467]">
           Through innovative solutions and strategic partnerships, we aim to
